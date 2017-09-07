@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    color:grey;
+}
+h1{
+    font-size: 30pt;
+    font-family: 'Righteous', cursive;
+    text-shadow: 2px 2px green;
+}
+header, main, nav, footer{
+    text-align: center;
+}
+nav a{ /*links in nav*/
+    padding:15px;
+    padding-bottom: 4px;
+    font-size: 1.6em;
+    text-decoration: none;
+    color:lime;
+}
+nav a:hover{
+    border-bottom: 1.8px green solid;
+    font-size: 1.8em;
+    transition: .6;
+}
+#Greeting{
+    font-size: 22pt;
+}
+#footerText
+{
+    font-size: 9pt;
+    color:darkred;
+}
+footer{
+    clear:left;
+}
+p{
+    text-transform: uppercase;
+    color: pink;
+    font-size: 14pt;
+    text-align: center;
+    width: 100%;
+    
+}
+li{
+    font-style: oblique;
+    text-align: left;
+    font-size: 14pt;
+    color: orange;
+    
+}
+#thanks{
+    font-size: 14pt;
+    color: pink;
+    text-align: center;
+    width: 100%;
+}
